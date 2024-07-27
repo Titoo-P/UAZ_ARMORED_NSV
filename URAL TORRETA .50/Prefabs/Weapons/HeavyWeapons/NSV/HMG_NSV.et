@@ -1,0 +1,43 @@
+GenericEntity : "{842D220FF4EFF2A8}Prefabs/Weapons/HeavyWeapons/NSV/HMG_NSV_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  SlotManagerComponent "{6044A1932A368344}" {
+   Slots {
+    EntitySlotInfo Dovetail {
+     PivotID "slot_dovetail"
+     ChildPivotID "snap_weapon"
+     Prefab "{A97F179B2DA6DE33}Prefabs/Weapons/Attachments/Mounts/Dovetail_NSV/Dovetail_NSV.et"
+    }
+    RegisteringComponentSlotInfo CulatayGatillo {
+     Offset -0.0444 0.1988 -0.0989
+     Prefab "{2BE26641942395C8}Prefabs/Props/Core/Culata.et"
+     DisablePhysicsInteraction 1
+    }
+    RegisteringComponentSlotInfo Blindaje {
+     Offset 0.5399 -0.3785 0.2704
+     Angles 0 90 0
+     Prefab "{C463D7ECA69AF48A}Prefabs/Props/Core/armadura_1_frontal.et"
+     DisablePhysicsInteraction 1
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5AF070F55031A54D}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      PivotID ""
+      Offset -0.027 0.0997 -0.0486
+     }
+    }
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     MagazineTemplate "{FC4505F76BAE8A7E}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+    }
+    WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
+     AnimInstance "{BA0CF76FB37A8638}Assets/Weapons/HeavyWeapons/workspaces/NSV_Weapon_tripod.asi"
+     StartNode "WeaponMasterControl"
+    }
+   }
+  }
+ }
+ coords 1214.189 39 2211.764
+}
