@@ -1,0 +1,13 @@
+GenericEntity {
+ ID "61F07D96599CFF5A"
+ components {
+  MeshObject "{61F07D96599CFF16}" {
+   Object "{CF713046D1F6BE08}blindaje_uaz/BlindajeFrontal01/frontal_arma_1y2.xob"
+  }
+  RigidBody "{61F07D96599CFF08}" {
+   ModelGeometry 1
+   Static 1
+  }
+ }
+ Flags 1027
+}

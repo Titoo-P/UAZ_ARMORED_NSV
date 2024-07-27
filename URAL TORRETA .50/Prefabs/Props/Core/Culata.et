@@ -1,0 +1,12 @@
+GenericEntity {
+ ID "61F073363D08B216"
+ components {
+  MeshObject "{61F073363D08B1BC}" {
+   Object "{0D1FBC66D531F6CA}Culata/Culata.xob"
+  }
+  RigidBody "{61F073363D08B1AC}" {
+   Static 1
+  }
+ }
+ Flags 1027
+}

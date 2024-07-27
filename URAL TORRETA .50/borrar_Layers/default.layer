@@ -1,0 +1,18 @@
+Vehicle UAZ469_PKM_Blindaje_Completo1 : "{4D01C1F832B5407C}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM_Blindaje_Completo.et" {
+ coords 1217.941 39 2212.251
+}
+Turret : "{5C99E2034DE2388C}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/WeapMounts/UAZ469_weapon_mount_6T5_PKM.et" {
+ coords 1215.83 39 2211.777
+}
+GenericEntity : "{96ECDDA4EEEE1FA4}Prefabs/Weapons/HeavyWeapons/NSV/HMG_NSV.et" {
+ components {
+  SlotManagerComponent "{6044A1932A368344}" {
+   Slots {
+    RegisteringComponentSlotInfo CulatayGatillo {
+     Offset -0.0444 0.1988 -0.0989
+    }
+   }
+  }
+ }
+ coords 1214.189 39 2211.764
+}
